@@ -14,15 +14,12 @@ function setup(){
     poseNet.on('pose', gotPoses)
 }   
 function poseLoaded(){
-    console.log("Posenet is Loaded but why are checking the console do your work");
+    
 }
 function gotPoses(r){
      if(r.length > 0 ){
          noseX = r[0].pose.nose.x;
          noseY =  r[0].pose.nose.y;
-         console.log(r);
-         console.log("x = " + noseX );
-         console.log("y = " + noseY)
      }
 }
 function draw(){
