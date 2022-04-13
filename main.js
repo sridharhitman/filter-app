@@ -27,7 +27,7 @@ function gotPoses(r){
 }
 function draw(){
     image(video, 0, 0,300,300);
-    image(mustache,noseX-20,noseY+7,50,15);
+    image(mustache,noseX-22,noseY+7,50,15);
     image(clownNose,noseX-15,noseY-15,30,30);
     
 }
